@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_PKG_MANIFEST",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json found in F:\\01_MyProject\\exam\\pkg",
+      "code": "ERR_PNPM_NO_PKG_MANIFEST",
+      "stack": "pnpm: No package.json found in F:\\01_MyProject\\exam\\pkg\n    at handler (C:\\Users\\setu0\\AppData\\Local\\Volta\\tools\\image\\packages\\pnpm\\node_modules\\pnpm\\dist\\pnpm.cjs:121541:17)\n    at async C:\\Users\\setu0\\AppData\\Local\\Volta\\tools\\image\\packages\\pnpm\\node_modules\\pnpm\\dist\\pnpm.cjs:176500:21\n    at async run (C:\\Users\\setu0\\AppData\\Local\\Volta\\tools\\image\\packages\\pnpm\\node_modules\\pnpm\\dist\\pnpm.cjs:176474:34)\n    at async runPnpm (C:\\Users\\setu0\\AppData\\Local\\Volta\\tools\\image\\packages\\pnpm\\node_modules\\pnpm\\dist\\pnpm.cjs:176692:5)\n    at async C:\\Users\\setu0\\AppData\\Local\\Volta\\tools\\image\\packages\\pnpm\\node_modules\\pnpm\\dist\\pnpm.cjs:176684:7"
+    }
+  }
+}

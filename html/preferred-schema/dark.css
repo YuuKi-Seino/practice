@@ -1,0 +1,6 @@
+/* :root要素はhtmlタグhtmlタグでの指定と意味は同じだが詳細度が高い */
+:root {
+  --before-text: "dark";
+  --color-bg: rgb(44, 44, 44);
+  --color-text: gray;
+}
