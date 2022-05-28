@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+    </div>
+    <style>
+      .container {
+        overflow: auto;
+        scroll-snap-type: y mandatory;
+        height: 100vh;
+      }
+      body {
+        margin: 0;
+      }
+      .item {
+        scroll-snap-align: start;
+        height: 150vh;
+        font-size: 3rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .item:nth-child(1) {
+        background-color: aqua;
+      }
+      .item:nth-child(2) {
+        background-color: rgb(17, 255, 0);
+      }
+      .item:nth-child(3) {
+        background-color: rgb(242, 0, 255);
+      }
+      .item:nth-child(4) {
+        background-color: rgb(204, 255, 0);
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
